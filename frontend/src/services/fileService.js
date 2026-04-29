@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = '/api/files';
+const API_BASE = 'https://file-share-g79o.onrender.com/api/files';
 
 // Upload a file
 export const uploadFile = async (file, uploadedBy = 'Anonymous', onProgress) => {
